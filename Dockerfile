@@ -8,7 +8,7 @@ COPY . .
 RUN npm install
 # install our dependencies
 
-ENV PORT = 3000
+ENV PORT=3000
 #let apps know which port. set enviromental vars
 
 EXPOSE 3000
